@@ -21,7 +21,7 @@ repository               : "jackdmoody/jackdmoody.github.io"
 # If a field is blank the icon and link will not appear.
 author:
   # Biographic information
-  avatar           : "profile.png"   # place the image at images/profile.png
+  avatar           : "profile.jpeg"   # place the image at images/profile.png
   name             : "Jack Moody"
   pronouns         :
   bio              : "Calibrated, verifiable inference for adversarial and social systems."
