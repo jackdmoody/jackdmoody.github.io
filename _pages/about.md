@@ -338,7 +338,7 @@ body{ padding-top:0 !important; }
     var nx=-dy/L, ny=dx/L; if((cx-a[0])*nx+(cy-a[1])*ny<0){nx=-nx;ny=-ny;}
     edges.push({a:a,b:b,nx:nx,ny:ny});
   }
-  var ball={x:65,y:45,vx:1.6,vy:0,r:9}, G=0.28, E=0.82, F=0.995, running=false;
+  var ball={x:65,y:45,vx:1.6,vy:0,r:9}, G=0.3, E=0.93, F=0.993, N=8, VMAX=34, running=false;
   function draw(){
     g.clearRect(0,0,W,H);
     g.beginPath(); g.moveTo(pts[0][0],pts[0][1]);
@@ -348,7 +348,9 @@ body{ padding-top:0 !important; }
     g.beginPath(); g.arc(ball.x,ball.y,ball.r,0,Math.PI*2); g.fillStyle='#f0a63a'; g.fill();
   }
   function step(){
-    ball.vy+=G; ball.vx*=F; ball.vy*=F; ball.x+=ball.vx; ball.y+=ball.vy;
+    ball.vy+=G; ball.vx*=F; ball.vy*=F;
+    for(var n=0;n<N;n++){
+    ball.x+=ball.vx/N; ball.y+=ball.vy/N;
     edges.forEach(function(e){
       var dx=e.b[0]-e.a[0], dy=e.b[1]-e.a[1], L2=dx*dx+dy*dy;
       var t=Math.max(0,Math.min(1,((ball.x-e.a[0])*dx+(ball.y-e.a[1])*dy)/L2));
@@ -360,6 +362,7 @@ body{ padding-top:0 !important; }
         if(vn<0){ ball.vx-=(1+E)*vn*e.nx; ball.vy-=(1+E)*vn*e.ny; }
       }
     });
+    }
     draw();
     var speed=Math.abs(ball.vx)+Math.abs(ball.vy);
     if(speed<0.05 && ball.y>110){ running=false; return; }
@@ -369,7 +372,9 @@ body{ padding-top:0 !important; }
   c.addEventListener('click',function(ev){
     var r=c.getBoundingClientRect(), mx=(ev.clientX-r.left)/S, my=(ev.clientY-r.top)/S;
     var ax=ball.x-mx, ay=ball.y-my, L=Math.hypot(ax,ay)||1;
-    ball.vx+=ax/L*6+(Math.random()-.5)*2; ball.vy+=-7+ay/L*2;
+    var a=Math.atan2(ay,ax)+(Math.random()-.5)*0.9, k=22+Math.random()*8;
+    ball.vx=ball.vx*0.3+Math.cos(a)*k; ball.vy=ball.vy*0.3+Math.sin(a)*k-6;
+    var v=Math.hypot(ball.vx,ball.vy); if(v>VMAX){ ball.vx*=VMAX/v; ball.vy*=VMAX/v; }
     go();
   });
   draw(); go();
