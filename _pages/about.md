@@ -29,7 +29,8 @@ html, html[data-theme="dark"]{
 }
 html, body{ background:#121315 !important; }
 .masthead{ border-bottom:1px solid #2a2d31; }
-.page__footer{ background:#0c0d0e !important; border-top:1px solid #2a2d31; }
+.page__footer{ background:#0c0d0e !important; border-top:1px solid #2a2d31; position:relative !important; bottom:auto !important; }
+body{ padding-bottom:0 !important; }
 .page__footer, .page__footer a{ color:#7d848c !important; }
 
 
@@ -42,7 +43,7 @@ body{ padding-top:0 !important; }
 .page__meta{ display:none !important; }
 
 .jm-bar{ background:#1c1f23; border-bottom:1px solid #2a2d31; margin:0 0 2.4rem; }
-.jm-bar-in{ max-width:72rem; margin:0 auto; padding:.9rem 1.5rem; display:flex; align-items:center; gap:2rem; }
+.jm-bar-in{ max-width:76rem; margin:0 auto; padding:.9rem 1.5rem; display:flex; align-items:center; gap:2rem; }
 .jm-bar .jm-brand{ font-family:'IBM Plex Sans',system-ui,sans-serif; font-weight:600; font-size:2rem; color:#f0a63a !important;
   text-decoration:none !important; border:0 !important; white-space:nowrap; letter-spacing:-.01em; }
 .jm-pills{ display:flex; flex-wrap:wrap; gap:.7rem; flex:1; }
@@ -68,7 +69,7 @@ body{ padding-top:0 !important; }
   --serif:'Spectral',Georgia,serif;
   --sans:'IBM Plex Sans',system-ui,-apple-system,sans-serif;
   --mono:'IBM Plex Mono',ui-monospace,monospace;
-  max-width:46rem; margin:0 auto; padding:0 1rem; color:var(--ink);
+  max-width:64rem; margin:0 auto; padding:0 1.5rem; color:var(--ink);
   font-family:var(--sans); font-size:1rem; line-height:1.65;
 }
 .jm a{ color:var(--accent); text-decoration:none; border-bottom:1px solid transparent; }
