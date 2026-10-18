@@ -311,6 +311,8 @@ body{ padding-top:0 !important; }
       <li><span class="y">2026</span><span>Presented a STRATA-E poster at the Military Operations Research Society (MORS) AI Workshop.</span></li>
       <li><span class="y">2026</span><span>Began an M.S. in Computer Science at CU Boulder.</span></li>
       <li><span class="y">2024</span><span>Received the Order of the Sphinx Award for contributions to intelligence work in the cyber domain.</span></li>
+      <li><span class="y">2021</span><span>Featured in a <a href="https://www.umass.edu/natural-sciences/stories/jack-moody-21">UMass College of Natural Sciences graduate profile</a>.</span></li>
+      <li><span class="y">2020</span><span>Op-ed in <em>APS News</em>: <a href="https://www.aps.org/archives/publications/apsnews/202006/backpage.cfm">Staying Motivated and Productive During COVID-19 as an Undergraduate Student</a>.</span></li>
     </ul>
   </section>
 
