@@ -212,30 +212,30 @@ body{ padding-top:0 !important; }
   <section id="research">
     <h2>Research Agenda</h2>
     <p class="jm-agenda-title">Identify, Detect, Decide, and Delegate Under Adversarial Contamination</p>
-    <p class="jm-agenda-lede">Cyber telemetry and information environments are mostly benign processes with an adversary mixed in, and the adversary adapts to whatever the defender measures. My work follows that problem from end to end: model the contaminated process, establish what can be detected from it with honest confidence, turn that evidence into a defender's action, and ask whether the agents carrying out that action can themselves be trusted.</p>
+    <p class="jm-agenda-lede">Whether the target is a network or a population, the systems an adversary attacks are mostly benign processes with the adversary mixed in, and the adversary adapts to whatever the defender measures. That holds in cybersecurity, where an intrusion hides inside normal host activity, and in social cybersecurity, where an influence operation hides inside organic belief and information flow. My work follows that problem from end to end: model the contaminated process, establish what can be detected from it with honest confidence, turn that evidence into a defender's action, and ask whether the agents carrying out that action can themselves be trusted.</p>
     <div class="jm-pillars">
       <div class="jm-pillar i">
         <span class="num">I · Identify</span>
         <h3>What does the contaminated process look like?</h3>
-        <p>Generative and structural models of normal and adversarial behavior: role-indexed Markov models of ATT&amp;CK tactic transitions on hosts, graphon models of adversarial networks compared under Gromov–Wasserstein distance, and the dynamics of how narratives emerge and drift.</p>
+        <p>Generative and structural models of normal and adversarial behavior across technical and social systems: role-indexed Markov models of ATT&amp;CK tactic transitions on hosts, graphon models of adversarial networks compared under Gromov–Wasserstein distance, and models of how narratives emerge and drift in information environments and how coordinated activity contaminates them.</p>
         <div class="jm-tags"><a href="#projects">DRIFT</a><a href="https://jscholarship.library.jhu.edu/items/fd7d6024-7bb5-4360-a7c8-33664ba25914">M.S. thesis</a><a href="https://arxiv.org/abs/2603.17617">Narrative monitoring</a></div>
       </div>
       <div class="jm-pillar d">
         <span class="num">II · Detect</span>
         <h3>What can the defender know?</h3>
-        <p>Detectors that report calibrated, verifiable evidence rather than bare alerts: peer-baselined, bootstrap-calibrated divergence scoring with multi-channel corroboration, periodicity and changepoint tests for command-and-control, and uncertainty quantification for model and LLM outputs.</p>
+        <p>Detectors that report calibrated, verifiable evidence rather than bare alerts: peer-baselined, bootstrap-calibrated divergence scoring with multi-channel corroboration, periodicity and changepoint tests for command-and-control and for shifts in narrative activity, and uncertainty quantification for model and LLM outputs.</p>
         <div class="jm-tags"><a href="#projects">STRATA-E</a><a href="#projects">CADENCE</a><a href="https://link.springer.com/chapter/10.1007/978-3-032-40581-4_7">SBP-BRiMS '26</a></div>
       </div>
       <div class="jm-pillar x">
         <span class="num">III · Decide</span>
         <h3>What should the defender do?</h3>
-        <p>Decision-theoretic use of uncertain evidence: recommending follow-on collection over adversarial networks, and modeling intrusion progression with attack graphs and POMDPs so a defender can choose which analytic or response to run next under a limited budget.</p>
-        <div class="jm-tags"><a href="https://jscholarship.library.jhu.edu/items/fd7d6024-7bb5-4360-a7c8-33664ba25914">M.S. thesis</a><span>Current direction</span></div>
+        <p>Decision-theoretic use of uncertain evidence on networks and in populations: recommending follow-on collection over adversarial networks, timing interventions against the spread of misinformation, and modeling intrusion progression with attack graphs and POMDPs so a defender can choose which analytic or response to run next under a limited budget.</p>
+        <div class="jm-tags"><a href="https://jscholarship.library.jhu.edu/items/fd7d6024-7bb5-4360-a7c8-33664ba25914">M.S. thesis</a><span>Misinformation dynamics</span><span>Current direction</span></div>
       </div>
       <div class="jm-pillar g">
         <span class="num">IV · Delegate</span>
         <h3>Who carries out the decision, and can they be trusted?</h3>
-        <p>As hunting shifts to AI agents, the defender's own pipeline becomes a source of contamination: agents err, follow the wrong principal, or exceed their authority. This arc applies the first three to the agent itself. It identifies correct behavior under codified authorities, measures how rarely agents fail, and decides when and to whom to delegate.</p>
+        <p>The first three questions turned on the defender's own AI agents, which can err, follow the wrong principal, or exceed their authority: identifying correct agent behavior under codified authorities, estimating how rarely agents fail with rare-event simulation, and deciding when and to whom a decision should be delegated.</p>
         <div class="jm-tags"><span>Current direction</span></div>
       </div>
     </div>
