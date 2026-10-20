@@ -309,6 +309,7 @@ body{ padding-top:0 !important; }
   <section id="news">
     <h2>News</h2>
     <ul class="jm-news">
+      <li><span class="y">2026</span><span>Our paper <a href="https://link.springer.com/chapter/10.1007/978-3-032-40581-4_7"><em>Characterizing Behavioral Deviation in Endpoint Telemetry via ATT&amp;CK Transitions</em></a> (with Iain Cruickshank) received the Best Paper Runner-Up award at SBP-BRiMS 2026.</span></li>
       <li><span class="y">2026</span><span>Presented <a href="https://link.springer.com/chapter/10.1007/978-3-032-40581-4_7"><em>Characterizing Behavioral Deviation in Endpoint Telemetry via ATT&amp;CK Transitions</em></a> at SBP-BRiMS 2026, Carnegie Mellon University.</span></li>
       <li><span class="y">2026</span><span>Preprint: <a href="https://arxiv.org/abs/2603.17617">Temporal Narrative Monitoring in Dynamic Information Environments</a>.</span></li>
       <li><span class="y">2026</span><span>Presented a STRATA-E poster at the Military Operations Research Society (MORS) AI Workshop.</span></li>
