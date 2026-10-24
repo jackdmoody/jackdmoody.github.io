@@ -37,15 +37,26 @@ layout: single
   <hr class="jm-triad">
 
   <div class="jm-secblock">
-    <span class="jm-eyebrow">Preprints</span>
+    <span class="jm-eyebrow">Conference &amp; Workshop Papers</span>
+
+    <div class="jm-entry jm-a2">
+      <h3>Cheap to Generate, Expensive to Verify: Human–Agent Allocation in Detection Engineering <span class="jm-ltag">Epistemic</span></h3>
+      <p class="jm-authors"><strong>Moody, J.</strong></p>
+      <p class="jm-venue">Proc. Workshop on Agentic AI in Offensive and Defensive Cyber Operations (AIDC), co-located with ACSAC · IEEE · December 2026 · Work-in-progress paper · To appear</p>
+      <p class="jm-sum">Asks when delegating a detection analytic to an AI agent saves human effort once verification is priced. Proposes a three-level verification-burden taxonomy (inspection, derivation, labels) and a break-even allocation rule, then instruments 27 unattended agent builds of C2-beaconing detections across three model families on CTU-13 Zeek telemetry. All nine mechanically passing builds survived a brief first review, but only four met a written intent criterion, moving the break-even human build time from a few minutes into tens of minutes.</p>
+    </div>
 
     <div class="jm-entry jm-a1">
       <h3>Characterizing Behavioral Deviation in Endpoint Telemetry via ATT&amp;CK Transitions <span class="jm-ltag">Attack</span></h3>
       <p class="jm-authors"><strong>Moody, J.</strong>, Cruickshank, I., &amp; Ng, L.H.X.</p>
-      <p class="jm-venue">Preprint · June 2026</p>
+      <p class="jm-venue">Proc. SBP-BRiMS 2026 · Springer LNCS · October 2026 · Best Paper Runner-Up</p>
       <p class="jm-sum">Represents each endpoint as a probability distribution over MITRE ATT&amp;CK tactic transitions under two complementary encodings, scored against a leave-one-out role-peer baseline to derive three corroborating deviation signals with bootstrap uncertainty quantification. On a 30.5-million-event Sysmon corpus (27 hosts, five operational roles), the rankings agree on 11 of 12 candidate hosts and surface a single host flagged by all three signals.</p>
-      <p class="jm-elinks"><a href="#">Preprint</a><a href="https://github.com/jackdmoody/STRATA-E_2">Code</a></p>
+      <p class="jm-elinks"><a href="https://doi.org/10.1007/978-3-032-40581-4_7">Springer</a><a href="https://github.com/jackdmoody/DRIFT">Code</a></p>
     </div>
+  </div>
+
+  <div class="jm-secblock">
+    <span class="jm-eyebrow">Preprints</span>
 
     <div class="jm-entry jm-a3">
       <h3>Temporal Narrative Monitoring in Dynamic Information Environments <span class="jm-ltag">Narrative</span></h3>
