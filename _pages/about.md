@@ -248,7 +248,7 @@ body{ padding-top:0 !important; }
       <li>
         <span class="t">Cheap to Generate, Expensive to Verify: Human–Agent Allocation in Detection Engineering</span>
         <span class="a"><b>J. Moody</b></span>
-        <span class="v">Workshop on Agentic AI in Offensive and Defensive Cyber Operations (AIDC), co-located with ACSAC 2026 (IEEE), work-in-progress paper, to appear</span><span class="l"><a href="/publications/#aidc26">[details]</a> <a href="https://aidcworkshop.github.io/">[workshop]</a></span>
+        <span class="v">Workshop on Agentic AI in Offensive and Defensive Cyber Operations (AIDC), co-located with ACSAC 2026 (IEEE), work-in-progress paper, to appear</span><span class="l"><a href="https://aidcworkshop.github.io/">[workshop]</a></span>
       </li>
       <li>
         <span class="t">Characterizing Behavioral Deviation in Endpoint Telemetry via ATT&amp;CK Transitions<span class="jm-award">Best Paper Runner-Up</span></span>
