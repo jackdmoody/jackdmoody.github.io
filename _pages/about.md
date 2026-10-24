@@ -248,7 +248,7 @@ body{ padding-top:0 !important; }
       <li>
         <span class="t">Cheap to Generate, Expensive to Verify: Human–Agent Allocation in Detection Engineering</span>
         <span class="a"><b>J. Moody</b></span>
-        <span class="v">Workshop on Agentic AI in Offensive and Defensive Cyber Operations (AIDC), co-located with ACSAC 2026 (IEEE), work-in-progress paper, to appear</span>
+        <span class="v">Workshop on Agentic AI in Offensive and Defensive Cyber Operations (AIDC), co-located with ACSAC 2026 (IEEE), work-in-progress paper, to appear</span><span class="l"><a href="/publications/#aidc26">[details]</a> <a href="https://aidcworkshop.github.io/">[workshop]</a></span>
       </li>
       <li>
         <span class="t">Characterizing Behavioral Deviation in Endpoint Telemetry via ATT&amp;CK Transitions<span class="jm-award">Best Paper Runner-Up</span></span>
@@ -315,7 +315,7 @@ body{ padding-top:0 !important; }
   <section id="news">
     <h2>News</h2>
     <ul class="jm-news">
-      <li><span class="y">2026</span><span>Paper <em>Cheap to Generate, Expensive to Verify: Human–Agent Allocation in Detection Engineering</em> accepted to AIDC 2026, co-located with ACSAC in Los Angeles.</span></li>
+      <li><span class="y">2026</span><span>My paper <a href="/publications/#aidc26"><em>Cheap to Generate, Expensive to Verify: Human–Agent Allocation in Detection Engineering</em></a> was accepted to the inaugural <a href="https://aidcworkshop.github.io/">Workshop on Agentic AI in Offensive and Defensive Cyber Operations (AIDC 2026)</a>, co-located with ACSAC in Los Angeles. I will present it on December 7.</span></li>
       <li><span class="y">2026</span><span>Our paper <a href="https://link.springer.com/chapter/10.1007/978-3-032-40581-4_7"><em>Characterizing Behavioral Deviation in Endpoint Telemetry via ATT&amp;CK Transitions</em></a> (with Iain Cruickshank and Lynnette Ng) received the Best Paper Runner-Up award at SBP-BRiMS 2026.</span></li>
       <li><span class="y">2026</span><span>Presented <a href="https://link.springer.com/chapter/10.1007/978-3-032-40581-4_7"><em>Characterizing Behavioral Deviation in Endpoint Telemetry via ATT&amp;CK Transitions</em></a> at SBP-BRiMS 2026, Carnegie Mellon University.</span></li>
       <li><span class="y">2026</span><span>Preprint: <a href="https://arxiv.org/abs/2603.17617">Temporal Narrative Monitoring in Dynamic Information Environments</a>.</span></li>
