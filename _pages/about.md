@@ -154,9 +154,6 @@ body{ padding-top:0 !important; }
 .jm-pubs .v{ font-size:.9rem; color:var(--faint); font-style:italic; }
 .jm-pubs .jm-award{ display:inline-block; margin-left:.5rem; font-family:var(--mono); font-size:.72rem; color:var(--accent); border:1px solid var(--accent); border-radius:4px; padding:.05rem .45rem; vertical-align:1px; }
 .jm-pubs .l{ font-family:var(--mono); font-size:.8rem; margin-left:.4rem; }
-.jm-pubs .l a.jm-talk{ background:var(--accent); color:var(--card); border-radius:3px; padding:.05rem .35rem; font-weight:600; }
-.jm-pubs .l a.jm-talk:hover{ border-bottom-color:transparent; filter:brightness(1.1); }
-
 /* news */
 .jm-news{ list-style:none; margin:0; padding:0; }
 .jm-news li{ display:grid; grid-template-columns:4rem 1fr; gap:1rem; margin:0 0 .7rem; font-size:.95rem; color:#ddd5c3; }
@@ -255,7 +252,7 @@ body{ padding-top:0 !important; }
       <li>
         <span class="t">Characterizing Behavioral Deviation in Endpoint Telemetry via ATT&amp;CK Transitions<span class="jm-award">Best Paper Runner-Up</span></span>
         <span class="a"><b>J. Moody</b>, I. Cruickshank, L. H. X. Ng</span>
-        <span class="v">Social, Cultural, and Behavioral Modeling: 19th International Conference, SBP-BRiMS 2026 (Springer LNCS)</span><span class="l"><a href="https://link.springer.com/chapter/10.1007/978-3-032-40581-4_7">[paper]</a> <a href="https://github.com/jackdmoody/DRIFT">[code]</a> <a class="jm-talk" href="https://youtu.be/NpNL3qDxohc">[talk]</a></span>
+        <span class="v">Social, Cultural, and Behavioral Modeling: 19th International Conference, SBP-BRiMS 2026 (Springer LNCS)</span><span class="l"><a href="https://link.springer.com/chapter/10.1007/978-3-032-40581-4_7">[paper]</a> <a href="https://github.com/jackdmoody/DRIFT">[code]</a> <a href="https://youtu.be/NpNL3qDxohc">[talk]</a></span>
       </li>
       <li>
         <span class="t">Temporal Narrative Monitoring in Dynamic Information Environments</span>
