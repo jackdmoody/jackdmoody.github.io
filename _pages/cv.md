@@ -28,8 +28,7 @@ layout: single
   <div class="jm-pagehead">
     <span class="jm-eyebrow">Curriculum Vitae</span>
     <h1>Curriculum vitae.</h1>
-    <p>A short snapshot is below; the full CV is available as a PDF.</p>
-    <p style="margin-top:1.1rem;"><a class="jm-btn-lite" href="/files/Moody_CV.pdf">Download CV (PDF)</a></p>
+    <p>A short snapshot is below. The full CV is available on request.</p>
   </div>
   <hr class="jm-triad">
 
